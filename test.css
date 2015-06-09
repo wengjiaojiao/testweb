@@ -119,12 +119,16 @@ header {
     height: 227px;
     width: 266px;
 }
-#new li{
+/*#new li{
     height: 50px;
     width: 200px;
     background-color:#0CF;
     margin-top: 10px;
     margin-left: 963px;
+}*/
+#iron{
+    height:227px;
+    width:290px;
 }
 #case{
     height:471px;
