@@ -33,15 +33,13 @@ header {
 }
 #gallery{
     height:441px;
-    background-color:#66CEEC;
     position:relative;
 }
-#gallery .pics{
-    position: absolute;
-    top: 87px;
-    left: 190px;
-    font-size: 63px;
-    color:white;
+
+#gallery .topic{
+    height:441px;
+    width:1265px;
+    margin-top:-16px;
 }
 #gallery .bar{
     position:absolute;
