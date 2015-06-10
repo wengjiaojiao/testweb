@@ -67,14 +67,24 @@ header {
 }
 #middle li {
     display: inline-block;
-    background-color: #0CF;
     height: 150px;
     width: 150px;
     border-radius: 100%;
     font-size: 18px;
     margin: 0 25px;
 }
-
+#ca{
+    background-color:#ec3635;
+}
+#cb{
+    background-color:#e46b36;
+}
+#cc{
+    background-color:#0CF;
+}
+#cd{
+    background-color:#49ce57;
+}
 #middle li i {
     margin-top: 25px;
     margin-bottom: 10px;
@@ -103,7 +113,6 @@ header {
     left: 165px;
     height: 227px;
     width: 290px;
-    background-color:#CA0007;
 }
 #new .content{
     position: absolute;
@@ -112,20 +121,63 @@ header {
     height: 227px;
     width: 466px;
 }
-#new .message{
-    position: absolute;
-    top: 70px;
-    left: 955px;
-    height: 227px;
-    width: 266px;
+#new .content ul{
+    margin-left: -19px;
+    margin-top: -13px;
 }
-/*#new li{
-    height: 50px;
-    width: 200px;
-    background-color:#0CF;
+#new .info li{
+    color:black;
+}
+#new .message{
+    height: 327px;
+    width: 254px;
+  float: right;
+  margin-right: 55px;
+  margin-top: 9px
+}
+#new .new_detail{
+    height: 269px;
+  width: 206px;
+  padding-left: 20px;
+
+}
+#new li i {
+    margin-top: 16px;
+    margin-left: 33px;
+    color: #fff;
+}
+#detail_1{
+    list-style: none;
+    height: 60px;
+    background: #9071ce;
     margin-top: 10px;
-    margin-left: 963px;
-}*/
+    border-radius: 5%;
+}
+#detail_2{
+    list-style: none;
+    height: 60px;
+    background: #cf9871;
+    margin-top: 10px;
+    border-radius: 5%;
+}
+#detail_3{
+    list-style: none;
+    height: 60px;
+    background: #70cece;
+    margin-top: 10px;
+    border-radius: 5%;
+}
+#detail_4{
+    list-style: none;
+    height: 60px;
+    background:#cf7092;
+    margin-top: 10px;
+    border-radius: 5%;
+}
+#new .new_detail div{
+    display:inline;
+    color: #fff;
+}
 #iron{
     height:227px;
     width:290px;
@@ -142,6 +194,10 @@ header {
     font-size: 22px;
     color:#CA0007;
 }
+#case .picture{
+    padding-left:150px;
+    width:1000px;
+}
 #case .bar{
     position:absolute;
     top:350px;
@@ -152,8 +208,12 @@ header {
     display:inline-block;
     height:163px;
     width:310px;
-    background:#CA0007;
     margin:5px 3px;
+    text-align:center
+}
+#case_png{
+    height:163px;
+    width:310px;
 }
 #partner{
     height:169px;
@@ -167,12 +227,16 @@ header {
     font-size: 22px;
     color:#CA0007;
 }
+#partner .brand{
+    text-align:center;
+}
 #partner li{
     display:inline-block;
+    margin:69px 9px;
+}
+#partner_png{
     height:47px;
     width:136px;
-    background:#CA0007;
-    margin:69px 9px;
 }
 #buttom{
     height:52px;
